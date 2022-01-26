@@ -1,4 +1,4 @@
-import { Stack, Box } from '@chakra-ui/react'
+import { Stack, Spacer } from '@chakra-ui/react'
 import Hero from '../components/Home/Hero'
 import About from '../components/Home/About'
 import Services from '../components/Home/Services'
@@ -14,6 +14,7 @@ export default function Index() {
       zIndex={1}
     >
       <Hero />
+      <Spacer />
       <About />
       <Services />
       <Projects />
