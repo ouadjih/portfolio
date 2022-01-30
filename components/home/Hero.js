@@ -15,20 +15,20 @@ export default function Hero() {
   return (
     <>
     <Flex
-    w={'full'}
-    h={'100vh'}
-    backgroundImage={
-      'url(hero.jpg)'
-    }
-    backgroundSize={'cover'}
-    zIndex={-2}
-    backgroundPosition={'center center'}>
-    <VStack
       w={'full'}
-      justify={'center'}
-      px={useBreakpointValue({ base: 4, md: 8 })}
-      bgGradient={'linear(to-r, blackAlpha.600, transparent)'}>
-        <Heading
+      h={'100vh'}
+      backgroundImage={
+        'url(hero.jpg)'
+      }
+      backgroundSize={'cover'}
+      zIndex={-2}
+      backgroundPosition={'center center'}>
+      <VStack
+        w={'full'}
+        justify={'center'}
+        px={useBreakpointValue({ base: 4, md: 8 })}
+        bgGradient={'linear(to-r, blackAlpha.600, transparent)'}>
+          <Heading
             lineHeight={1.1}
             fontWeight={600}
             fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
@@ -50,14 +50,14 @@ export default function Hero() {
             </Text>
             <br />
             <Text
-             as={'span'}
-             color={'red.300'}
-             text-shadow='1px 1px 2px white'
-             >
+              as={'span'}
+              color={'red.300'}
+              text-shadow='1px 1px 2px white'
+              >
               FullStack Developper
             </Text>
           </Heading>
-    </VStack>
+      </VStack>
   </Flex>
     </>
   );

@@ -38,9 +38,8 @@ export default function About() {
           Its M.I branch.<br/>
 
           Its there where did i start studying algorithms,machine structure and different topics about Maths and CS
-          in my second year we started learning about web html , css , js and php  where it was so limited and yes 
-          those are the basics.
-          So i went home and i was digging in the net about web where i start discovering a beautifull functionalities 
+          in my second year we started learning about web html , css , js and php  where it was so limited.
+          So i went home and i was digging in the net about web developpement where i start discovering a beautifull functionalities 
           It was like MAGIC and there is so much to learn even if you live 1000 years you wont be able to learn everything,
           but what ever i am not going to stop here.<br/>
 
@@ -72,7 +71,6 @@ export default function About() {
             />
           </Box>
         </Flex>
-
       </Stack>
     </Container>
   );
