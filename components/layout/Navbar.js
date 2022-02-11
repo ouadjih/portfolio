@@ -23,7 +23,7 @@ const NavLink = ({ children }) => (
       textDecoration: 'none',
       color: '#F05454'
     }}
-    href={'#'}>
+    href={children}>
     {children}
   </Link>
 );
@@ -46,7 +46,9 @@ export default  function Navbar() {
               }}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box><Image h='48px' w="54px" src="logo.png"/></Box>
+            <Link href='/'>
+              <Image h='48px' w="54px" src="logo.png"/>
+            </Link>
             <HStack
               as={'nav'}
               spacing={5}

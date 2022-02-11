@@ -16,7 +16,7 @@ const features = [<SiHtml5 />, <SiCss3 />, <SiJavascript />, <SiJava />, <SiMysq
 ];
 
   return (
-    <Box p={4} py={{ base: 8, md: 12, lg: 16 }} bgColor={'#F05454'}>
+    <Box p={4} py={{ base: 6, md: 8, lg: 10 }} bgColor={'#F05454'}>
       <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
         <Heading
           lineHeight={1.1}

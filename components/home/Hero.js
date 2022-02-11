@@ -16,7 +16,7 @@ export default function Hero() {
     <>
     <Flex
       w={'full'}
-      h={'100vh'}
+      h={'90vh'}
       backgroundImage={
         'url(hero.jpg)'
       }

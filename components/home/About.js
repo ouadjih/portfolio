@@ -11,12 +11,12 @@ import {
 
 export default function About() {
   return (
-    <Container maxW={'7xl'} px={{ base: '5', md: '30' }}>
+    <Container maxW={'7xl'} px={{ base: '5', md: '50' }}>
       <Stack
         align={'center'}
         mt={0}
         pt={0}
-        spacing={{ base: 8, md: 10 }}
+        spacing={{ base: 8, md: 10,lg: 20 }}
         py={{ base: 10, md: 50 }}
         direction={{ base: 'column', md: 'row' }}>
         <Stack flex={1} spacing={{ base: 5, md: 10 }}>
