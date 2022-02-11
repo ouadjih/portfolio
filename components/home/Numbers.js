@@ -30,7 +30,7 @@ function StatsCard(props) {
 
 export default function Numbers() {
   return (
-    <Box maxW="7xl" mx={{ base: 5, sm: 12, md: 20 }} pb={{ base: 5, sm: 10, md: 20 }} px={{ base: 5, sm: 12, md: 40 }} color={'#30475E'}>
+    <Box maxW="9xl" mx={{ base: 5, sm: 12, md: 20 }} pb={{ base: 5, sm: 10, md: 20 }} px={{ base: 5, sm: 12, md: 40 }} color={'#30475E'}>
       <chakra.h1
         textAlign={'center'}
         fontSize={'4xl'}

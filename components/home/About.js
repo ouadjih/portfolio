@@ -11,7 +11,7 @@ import {
 
 export default function About() {
   return (
-    <Container maxW={'7xl'} px={{ base: '5', md: '50' }}>
+    <Container maxW={'9xl'} px={{ base: '5', md: '50' }}>
       <Stack
         align={'center'}
         mt={0}
