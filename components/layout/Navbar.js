@@ -23,7 +23,7 @@ const NavLink = ({ children }) => (
       textDecoration: 'none',
       color: '#F05454'
     }}
-    href={children}>
+    href={(children == 'Home')?'/':children}>
     {children}
   </Link>
 );

@@ -8,7 +8,7 @@ import {
   Button,
   Image,
 } from '@chakra-ui/react';
-
+import FadeIn from '../FadeIn';
 export default function About() {
   return (
     <Container maxW={'9xl'} px={{ base: '5', md: '50' }}>
@@ -28,23 +28,17 @@ export default function About() {
               About
             </Text>
           </Heading>
+          <FadeIn>
           <Text color={'gray.500'}>
           My full name is Mohamed Ouadjih Boudraa and I am currently based in Algers, Algeria.
-          I started to use the Computer at 5 when i was playing tomb rider and counter strike 1.6 
-          then i was thinking how do they create this games , its wonderfull and i want to do the same.<br/>
-
-          My journey stoped here since i was more intrested in sports and studying in the school and college.
-          I got baccalaureate degree with honors but it wasn't enough to choose ESI so i went to the alternative choice
-          Its M.I branch.<br/>
-
-          Its there where did i start studying algorithms,machine structure and different topics about Maths and CS
-          in my second year we started learning about web html , css , js and php  where it was so limited.
-          So i went home and i was digging in the net about web developpement where i start discovering a beautifull functionalities 
-          It was like MAGIC and there is so much to learn even if you live 1000 years you wont be able to learn everything,
-          but what ever i am not going to stop here.<br/>
-
+          I started to use the Computer at 5 when i was playing tomb rider and counter strike 1.6 then i was thinking how do they create this games ,
+          its wonderfull and i want to do the same.<br />
+          My journey stoped here since i was more intrested in sports and studying in the school and college. I got baccalaureate degree with honors but it wasn't enough to choose ESI so i went to the alternative choice Its M.I branch.
+          Its there where did i start studying algorithms,machine structure and different topics about Maths and Computer Science in my second year we started learning about web developpement html , css , js and php where it was so limited.
+          So i went home and i was digging in the net about web developpement where i start discovering a beautifull functionalities It was like MAGIC and there is so much to learn even if you live 1000 years you wont be able to learn everything, but what ever i am not going to stop here.<br />
           a fullstack developper
           </Text>
+          </FadeIn>
         </Stack>
         <Flex
           flex={1}

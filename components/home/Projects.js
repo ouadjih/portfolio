@@ -14,6 +14,7 @@ import {
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 // And react-slick as our Carousel Lib
 import Slider from 'react-slick';
+import FadeIn from '../FadeIn';
 
 // Settings for the slider
 const settings = {
@@ -75,9 +76,11 @@ export default function Projects() {
           Projects
         </Text>
       </Heading>
-      <Text color={'gray.200'} fontSize={'xl'}>
-       here are some projects that i developped before, some of them are for university others are for clients
-      </Text>
+      <FadeIn>
+        <Text color={'gray.200'} fontSize={'xl'}>
+        here are some projects that i developped before, some of them are for university others are for clients
+        </Text>
+      </FadeIn>
     </Stack>
     <Box
       position={'relative'}

@@ -7,6 +7,7 @@ import {
   StatNumber,
   useColorModeValue,
 } from '@chakra-ui/react';
+import FadeIn from '../FadeIn';
 
 function StatsCard(props) {
   const { title, stat } = props;
@@ -39,11 +40,13 @@ export default function Numbers() {
         fontWeight={'bold'}>
         Currently
       </chakra.h1>
-      <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
-        <StatsCard title={'I am working with'} stat={'10 people'} />
-        <StatsCard title={'In'} stat={'5 different countries'} />
-        <StatsCard title={'Who speak'} stat={'4 different languages'} />
-      </SimpleGrid>
+      <FadeIn>
+        <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
+          <StatsCard title={'I am working with'} stat={'10 people'} />
+          <StatsCard title={'In'} stat={'5 different countries'} />
+          <StatsCard title={'Who speak'} stat={'4 different languages'} />
+        </SimpleGrid>
+      </FadeIn>
     </Box>
   );
 }
